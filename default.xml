@@ -489,6 +489,10 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
+	
+  <!--Vanilla Nexus Repos-->
+  <project path="manifests" name="android_manifest" remote="vn" revision="N1"/>
+  <project path="vendor/vanilla" name="android_vendor_vanilla" remote="vn" revision="N1"/>
 
 </manifest>
 
