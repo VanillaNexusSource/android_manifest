@@ -6,16 +6,13 @@
 	   review="https://android-review.googlesource.com/" />
   <remote  name="github"
            fetch="https://github.com/" />
-  <remote name="VN"
+  <remote name="vn"
             fetch="https://github.com/VanillaNexusSource/" /> 
   <default revision="refs/tags/android-7.1.1_r22"
            remote="aosp"
            sync-j="4"
            sync-c="true"/>
 
-  <project path="build" name="platform/build" groups="pdk,tradefed" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" >
@@ -384,7 +381,6 @@
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" groups="apps_stk,pdk-fs" />
@@ -491,8 +487,12 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 	
   <!--Vanilla Nexus Repos-->
+  <project path="build" name="android_build" remote="vn" revision="N1">
+	    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project path="manifests" name="android_manifest" remote="vn" revision="N1"/>
   <project path="vendor/vanilla" name="android_vendor_vanilla" remote="vn" revision="N1"/>
+  <project path="packages/apps/settings" name="android_packages_apps_settings" remote="vn" revision="N1"/>	
 
 </manifest>
 
