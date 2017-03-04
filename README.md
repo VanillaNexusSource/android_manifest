@@ -1,5 +1,5 @@
 # Vanilla Nexus #
-[<center><img src="http://i.imgur.com/sYAI6vw.png" height="100%" width="100%;"/></center>]
+<center><img src="http://i.imgur.com/sYAI6vw.png" height="100%" width="100%;"/></center>
 
 ## Sync our source ##
 repo init -u http://github.com/VanillaNexusSource/android_manifest.git -b N1
