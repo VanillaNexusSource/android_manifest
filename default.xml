@@ -493,6 +493,9 @@
   <project path="manifests" name="android_manifest" remote="vn" revision="N1"/>
   <project path="vendor/vanilla" name="android_vendor_vanilla" remote="vn" revision="N1"/>
   <project path="packages/apps/settings" name="android_packages_apps_settings" remote="vn" revision="N1"/>	
+	
+	<!--Substratum Repos-->
+	<project path="packages/apps/masquerade" name="substratum/masquerade" remote="github" revision="n-rootless" />
 
 </manifest>
 
