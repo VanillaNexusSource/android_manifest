@@ -484,6 +484,6 @@
   <project path="vendor/vanilla" name="android_vendor_vanilla" remote="vanilla" revision="N1"/>	
 	
   <!--Substratum Repos-->
-  <project path="packages/apps/masquerade" name="substratum/masquerade" remote="github" revision="n-rootless" />
+  <project path="packages/apps/interfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
 </manifest>
 
