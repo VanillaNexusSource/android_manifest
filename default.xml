@@ -34,7 +34,6 @@
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device" />
-  <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/adt-infra" name="platform/external/adt-infra" groups="adt-infra,notdefault" />
@@ -467,6 +466,9 @@
   <!--Framework Repos-->
   <project path="frameworks/base" name="android_frameworks_base" remote="vanilla" revision="N1"/>
   <project path="frameworks/native" name="android_frameworks_native" remote="vanilla" revision="N1"/>
+
+  <!-- Kernel Repos -->
+  <project path="kernel/huawei/angler" name="Flash-ROM/kernel_huawei_angler" remote="github" revision="n7.1.1-flash" />
 	
   <!--Package Repos-->  
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="vanilla" revision="N1"/>
