@@ -305,7 +305,6 @@
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
-  <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
@@ -465,7 +464,8 @@
   <!--Framework Repos-->
   <project path="frameworks/base" name="android_frameworks_base" remote="vanilla" revision="N1"/>
   <project path="frameworks/native" name="android_frameworks_native" remote="vanilla" revision="N1"/>
-
+  <project path="frameworks/support" name="android_frameworks_support" remote="vanilla" revision="N1"/>
+	
   <!-- Kernel Repos -->
   <project path="kernel/huawei/angler" name="Flash-ROM/kernel_huawei_angler" remote="github" revision="n7.1.1-flash" />
 	
