@@ -485,7 +485,7 @@
   
   <!--Vendor Repos-->
   <project path="vendor/vanilla" name="android_vendor_vanilla" remote="vanilla" revision="N1"/>	
-  <project path="vendor/huawei" name="PureNexusProject/proprietary_vendor_huawei" remote="github" revision="n-mr1"/>	
+  <project path="vendor/huawei" name="android_vendor_huawei" remote="vanilla" revision="N1"/>	
 	
 </manifest>
 
