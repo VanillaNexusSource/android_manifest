@@ -474,7 +474,7 @@
   
   <!-- Prebuilt Repos -->
   <project path="prebuilts/ninja/linux-x86" name="android_prebuilts_ninja_linux-x86" remote="vanilla" revision="N1"/>
-  <project path="prebuilts/ninja/misc" name="android_prebuilts_misc" remote="vanilla" revision="N1"/>	
+  <project path="prebuilts/misc" name="android_prebuilts_misc" remote="vanilla" revision="N1"/>	
 	
   <!--System Repos-->
   <project path="system/core" name="android_system_core" remote="vanilla" revision="N1"/>
