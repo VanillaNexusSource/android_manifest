@@ -8,6 +8,8 @@
            fetch="https://github.com/" />
   <remote name="vanilla"
             fetch="https://github.com/VanillaNexusSource/" /> 
+  <remote name="bitbucket"
+            fetch="https://bitbucket.org/" />
   <default revision="refs/tags/android-7.1.1_r26"
            remote="aosp"
            sync-j="4"
@@ -34,6 +36,7 @@
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device" />
+  <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/adt-infra" name="platform/external/adt-infra" groups="adt-infra,notdefault" />
@@ -457,6 +460,7 @@
 
   <!--Device Repos-->
   <project path="device/huawei/angler" name="android_device_huawei_angler" remote="vanilla" revision="N1"/>
+  <project path="device/moto/shamu" name="android_device_moto_shamu" remote="vanilla" revision="N1"/>
 
   <!--Framework Repos-->
   <project path="frameworks/base" name="android_frameworks_base" remote="vanilla" revision="N1"/>
@@ -465,6 +469,7 @@
 	
   <!-- Kernel Repos -->
   <project path="kernel/huawei/angler" name="Flash-ROM/kernel_huawei_angler" remote="github" revision="n7.1.1-flash" />
+  <project path="kernel/moto/shamu" name="android_kernel_moto_shamu" remote="vanilla" revision="N1" />
 	
   <!--Package Repos-->  
   <project path="packages/apps/interfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />  
@@ -473,6 +478,7 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="vanilla" revision="N1"/>
   
   <!-- Prebuilt Repos -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.x" name="DespairFactor/arm-eabi-6.x" remote="bitbucket" revision="master" />
   <project path="prebuilts/ninja/linux-x86" name="android_prebuilts_ninja_linux-x86" remote="vanilla" revision="N1"/>
   <project path="prebuilts/misc" name="android_prebuilts_misc" remote="vanilla" revision="N1"/>	
 	
@@ -485,6 +491,7 @@
   <!--Vendor Repos-->
   <project path="vendor/vanilla" name="android_vendor_vanilla" remote="vanilla" revision="N1"/>	
   <project path="vendor/huawei" name="android_vendor_huawei" remote="vanilla" revision="N1"/>	
+  <project path="vendor/moto" name="android_vendor_moto" remote="vanilla" revision="N1"/>
 	
 </manifest>
 
