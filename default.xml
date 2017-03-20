@@ -476,6 +476,7 @@
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="vanilla" revision="N1"/>				
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="vanilla" revision="N1"/>	
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="vanilla" revision="N1"/>
+  <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="vanilla" revision="N1"/>
   
   <!-- Prebuilt Repos -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.x" name="DespairFactor/arm-eabi-6.x" remote="bitbucket" revision="master" />
