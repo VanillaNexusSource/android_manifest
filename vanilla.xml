@@ -55,5 +55,8 @@
   <project path="vendor/vanilla" name="android_vendor_vanilla" remote="vanilla" />	
   <project path="vendor/huawei" name="android_vendor_huawei" remote="vanilla" />	
   <project path="vendor/moto" name="android_vendor_moto" remote="vanilla" />
+    
+  <!-- Extras -->
+  <project path="scripts" name="vanilla_scripts" remote="vanilla" />
 
 </manifest>
