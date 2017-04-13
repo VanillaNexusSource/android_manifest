@@ -281,7 +281,6 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -451,48 +450,8 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 	
-  <!--Vanilla Nexus Repos-->
-  <!--Build/Manifest Repos-->
-  <project path="build" name="android_build" remote="vanilla" revision="N1">
-	  <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
-  <project path="manifests" name="android_manifest" remote="vanilla" revision="N1"/>
-
-  <!--Device Repos-->
-  <project path="device/huawei/angler" name="android_device_huawei_angler" remote="vanilla" revision="N1"/>
-  <project path="device/moto/shamu" name="android_device_moto_shamu" remote="vanilla" revision="N1"/>
-
-  <!--Framework Repos-->
-  <project path="frameworks/base" name="android_frameworks_base" remote="vanilla" revision="N1"/>
-  <project path="frameworks/native" name="android_frameworks_native" remote="vanilla" revision="N1"/>
-  <project path="frameworks/support" name="android_frameworks_support" remote="vanilla" revision="N1"/>
-	
-  <!-- Kernel Repos -->
-  <project path="kernel/huawei/angler" name="Flash-ROM/kernel_huawei_angler" remote="github" revision="n7.1.1-flash" />
-  <project path="kernel/moto/shamu" name="android_kernel_moto_shamu" remote="vanilla" revision="N1" />
-	
-  <!--Package Repos-->  
-  <project path="packages/apps/interfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />  
-  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="vanilla" revision="N1"/>				
-  <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="vanilla" revision="N1"/>	
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="vanilla" revision="N1"/>
-  <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="vanilla" revision="N1"/>
-  
-  <!-- Prebuilt Repos -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.x" name="DespairFactor/arm-eabi-6.x" remote="bitbucket" revision="master" />
-  <project path="prebuilts/ninja/linux-x86" name="android_prebuilts_ninja_linux-x86" remote="vanilla" revision="N1"/>
-  <project path="prebuilts/misc" name="android_prebuilts_misc" remote="vanilla" revision="N1"/>	
-	
-  <!--System Repos-->
-  <project path="system/core" name="android_system_core" remote="vanilla" revision="N1"/>
-  <project path="system/extras" name="android_system_extras" remote="vanilla" revision="N1"/>
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="vanilla" revision="N1"/>
-  <project path="system/vold" name="android_system_vold" remote="vanilla" revision="N1"/>
-  
-  <!--Vendor Repos-->
-  <project path="vendor/vanilla" name="android_vendor_vanilla" remote="vanilla" revision="N1"/>	
-  <project path="vendor/huawei" name="android_vendor_huawei" remote="vanilla" revision="N1"/>	
-  <project path="vendor/moto" name="android_vendor_moto" remote="vanilla" revision="N1"/>
+  <!--Vanilla Additions-->
+  <include name="vanilla.xml" />
 	
 </manifest>
 
