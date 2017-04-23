@@ -35,7 +35,8 @@
 	
   <!-- Package Repos -->
   <project path="packages/apps/interfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
-  <project path="packages/apps/MusicFX" name="DirtyUnicorns/android_packages_apps_MusicFX" remote="github" revision="n7x" />
+  <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" remote="vanilla" />
+  <project path="packages/apps/PixelMusicFX" name="android_packages_apps_PixelMusicFX" remote="vanilla" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="vanilla" />				
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="vanilla" />	
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="vanilla" />
