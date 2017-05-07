@@ -34,6 +34,7 @@
   <project path="kernel/moto/shamu" name="android_kernel_moto_shamu" remote="vanilla"/>
 	
   <!-- Package Repos -->
+  <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="vanilla" />
   <project path="packages/apps/interfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
   <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" remote="vanilla" />
   <project path="packages/apps/PixelMusicFX" name="android_packages_apps_PixelMusicFX" remote="vanilla" />
@@ -50,6 +51,7 @@
   <!-- System Repos -->
   <project path="system/core" name="android_system_core" remote="vanilla" />
   <project path="system/extras" name="android_system_extras" remote="vanilla" />
+  <project path="system/media" name="android_system_media" remote="vanilla" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="vanilla" />
   <project path="system/vold" name="android_system_vold" remote="vanilla" />
   
