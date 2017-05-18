@@ -30,7 +30,7 @@
   <project path="frameworks/support" name="android_frameworks_support" remote="vanilla" />
 	
   <!-- Kernel Repos -->
-  <project path="kernel/huawei/angler" name="Flash-ROM/kernel_huawei_angler" remote="github" revision="n7.1.2-flash" />
+  <project path="kernel/huawei/angler" name="nathanchance/angler" remote="github" revision="7.1.2-flash" />
   <project path="kernel/moto/shamu" name="android_kernel_moto_shamu" remote="vanilla"/>
 	
   <!-- Package Repos -->
