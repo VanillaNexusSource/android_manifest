@@ -94,5 +94,6 @@
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />
+  <remove-project name="external/noto-fonts" />
 
 </manifest>

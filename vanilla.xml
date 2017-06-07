@@ -22,6 +22,9 @@
   <!-- Device Repos -->
   <project path="device/huawei/angler" name="android_device_huawei_angler" remote="vanilla" />
   <project path="device/moto/shamu" name="android_device_moto_shamu" remote="vanilla" />
+    
+  <!-- External -->
+  <project path="external/noto-fonts" name="external_noto-fonts" remote="vanilla" />
 
   <!-- Framework Repos -->
   <project path="frameworks/av" name="android_frameworks_av" remote="vanilla" />
