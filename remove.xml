@@ -38,6 +38,7 @@
   <remove-project name="device/linaro/hikey-kernel" />
   <remove-project name="device/moto/shamu" />
   <remove-project name="device/moto/shamu-kernel" />
+  <remove-project name="platform/external/noto-fonts" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
@@ -94,7 +95,5 @@
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />
-  <remove-project name="platform/external/noto-fonts" />
-  <remove-project name="platform/hardware/intel/common/bd_prov" />
 
 </manifest>
