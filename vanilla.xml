@@ -47,7 +47,7 @@
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="vanilla" />
   
   <!-- Prebuilt Repos -->
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linaro-linux-gnu-7.x" name="nathanchance/gcc-prebuilts" remote="github" revision="personal-linaro-7.x" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linaro-linux-android-7.x" name="nathanchance/gcc-prebuilts" remote="github" revision="personal-linaro-7.x" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.x" name="matthewdalex/arm-eabi-6.x" remote="bitbucket" />
   <project path="prebuilts/ninja/linux-x86" name="android_prebuilts_ninja_linux-x86" remote="vanilla" />
   <project path="prebuilts/misc" name="android_prebuilts_misc" remote="vanilla" />	
